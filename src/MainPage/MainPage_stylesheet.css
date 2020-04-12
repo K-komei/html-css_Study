@@ -1,0 +1,79 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+
+}
+html{
+  height: 100%;
+
+}
+body{
+  background-color:rgba(0, 0, 0, .9);
+  width: 100%;
+  height: 95%;
+
+}
+.Contents_Body{
+  position: relative;
+  background: linear-gradient(-90deg, rgba(0, 0, 0, .7), rgba(255, 255, 255, .8)),url(../../src/image/Background-sorce.jpg) 100%;  /* 背景画像指定 */
+  background-size: cover;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+
+  }
+
+.Header_Ber{
+  background-color: rgba(23, 56, 92, 0.7);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 1%;
+  width: 100%;
+  height: 30px;
+}
+.Header_Ber h1{
+font-weight: normal;
+color:aliceblue;
+font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.Main_Contenar{
+  padding-left: 40px;
+}
+
+.Main_Contenar h1{
+    font-size: 30px;
+    font-weight: normal;
+    color :coral;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.middle_Contents{
+padding-left: 30px;
+padding-bottom: 60px;
+
+width: 40%;
+height: 50px;
+
+font-weight: normal;
+color: cornflowerblue;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-size: 40px;
+}
+
+.Footer_Ber{
+  padding-top: 30px;
+  padding-left: 40px;
+
+  padding-bottom: 10px;
+  margin-bottom: 1%;
+  width: 90%;
+  height: 30px;
+ }
+ .Footer_Ber h4{
+ text-align: right;
+ }
