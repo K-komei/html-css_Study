@@ -1,0 +1,18 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+.Header_Ber{
+  background-color: rgba(23, 56, 92, 0.7);
+  padding: 15%;
+  color :aliceblue;
+}
+
+
+.Main_Contenar h1{
+    font-size: 30px;
+    color: brown;
+}
