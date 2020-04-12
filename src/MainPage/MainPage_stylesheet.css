@@ -10,14 +10,13 @@ html{
 
 }
 body{
-  background-color:rgba(0, 0, 0, .9);
-  width: 100%;
-  height: 95%;
+  background: linear-gradient(-90deg, rgba(60, 40, 30, .5), rgba(255, 255, 255, .3)),url(../../src/image/Background-sorce.jpg) 100%;
+  height: 100%;
 
 }
 .Contents_Body{
   position: relative;
-  background: linear-gradient(-90deg, rgba(0, 0, 0, .7), rgba(255, 255, 255, .8)),url(../../src/image/Background-sorce.jpg) 100%;  /* 背景画像指定 */
+  background: linear-gradient(-90deg, rgba(60, 40, 30, .7), rgba(255, 255, 255, .5));  /* 背景画像指定 */
   background-size: cover;
   padding-left: 1%;
   padding-right: 1%;
@@ -32,7 +31,6 @@ body{
   background-color: rgba(23, 56, 92, 0.7);
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 1%;
   width: 100%;
   height: 30px;
 }
@@ -66,13 +64,11 @@ font-size: 40px;
 }
 
 .Footer_Ber{
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 40px;
 
   padding-bottom: 10px;
-  margin-bottom: 1%;
   width: 90%;
-  height: 30px;
  }
  .Footer_Ber h4{
  text-align: right;

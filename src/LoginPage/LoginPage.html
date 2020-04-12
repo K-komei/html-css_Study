@@ -2,9 +2,10 @@
 <html lang ="ja">
     <head>
     <meta charset="utf-8">
-    <title>MainPage</title>
+    <title>Login    Page</title>
     <link rel="stylesheet" href="LoginPage_stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300" rel="stylesheet">
+    <link href=link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
     </head>
 
     <body>
@@ -13,18 +14,36 @@
         </header>
         
         <div class="Contents_Body">
+            <div class = "Title_Area">
+                <h1>貴方の感動を永久に消えない本棚に"寄贈"しませんか。</h1>
+                <p>BooksFactoryは全国の"本好き"の為に作成された書籍情報記録サービスです。</p>
+                <p>貴方のお気に入りの本をインターネット上の本棚に並べ、シェアしてみませんか？</p>
+
+            </div>
+
+            <br><br><br>
+
+            <div class = "Form_Area">
+                <p>E-MailAddress</p>
+                <input type ="email" value=""class = "input e-mall">
+                <p>Password</p>
+                <input type ="password" value=""class = "input password">
+                <br>
+                <br>
+                <input type ="button" value="ログイン" class = "input Login" id ="Login_btn">       
+            </div>
+
 
         </div>
 
 
-
-
-
-
-        <footer>
-
-        </footer>
-
     </body>
-</html>
+    ><script>
+    document.getElementById("Login_btn").onclick = function() {
+    // ここに#buttonをクリックしたら発生させる処理を記述する
+    location.href = '../MainPage/MainPage.html';
+    };
+    </script>
+      
+  </html>
 

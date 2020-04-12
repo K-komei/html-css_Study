@@ -10,13 +10,15 @@ html{
   
 }
 body{
-    background-color:rgba(0, 0, 0, .9);
+    background: linear-gradient(-90deg, rgba(60, 40, 30, .5), rgba(255, 255, 255, .3)),url(../../src/image/Background-Login.jpg) 100%;
     width: 100%;
     height: 100%;
-  
+    background-size: cover;
   }  
 
   .Contents_Body{
+  
+    background: linear-gradient(-90deg, rgba(60, 40, 30, .1), rgba(255, 255, 255, .5));  /* 背景画像指定 */
     background-size: cover;
     padding-left: 1%;
     padding-right: 1%;
@@ -25,4 +27,16 @@ body{
     margin-right: 15%;
   
   
+    }
+    .Title_Area{
+     padding-top: 200px;   
+    }
+    .Title_Area h1{
+        font-weight: normal;
+        font-family:'M PLUS 1p',M PLUS 1p;
+
+    }
+
+    .imput{
+        float : inline-start
     }
